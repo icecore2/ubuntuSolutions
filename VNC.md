@@ -70,6 +70,7 @@ Log file is /home/sammy/.vnc/liniverse.com:1.log
 ### Step 3 - Testing VNC:
 
 **Remember to replace:**
+
 |Variable|Description|
 |-------|-----------|
 |user |sudo non-root username |
@@ -85,8 +86,8 @@ VNC client to attempt a connection to the VNC server at:
 **Once you are connected, you should see the default Xfce desktop.**
 
 ### Step 3 - Creating a VNC Service File:
-1. create a new unit file: 
-> vncserver@.service
+1. create a new unit file: ```vncserver@.service```
+
 ```
 $ sudo nano /etc/systemd/system/vncserver@.service
 ```
