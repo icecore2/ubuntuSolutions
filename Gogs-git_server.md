@@ -1,6 +1,20 @@
 # Gogs Installation
 
-
+## Menu:
+- [Gogs Installation](#gogs-installation)
+    - [Menu:](#menu)
+    - [OS Details:](#os-details)
+    - [Prerequisites:](#prerequisites)
+    - [Procedure:](#procedure)
+        - [Step 1 - creating user and home directory:](#step-1---creating-user-and-home-directory)
+        - [Step 2 - Download Gogs:](#step-2---download-gogs)
+        - [Step 3 - Run Gogs:](#step-3---run-gogs)
+        - [Step 4 - Configure Gogs:](#step-4---configure-gogs)
+- [Additionals](#additionals)
+        - [Set up auto-run after boot:](#set-up-auto-run-after-boot)
+- [Screenshots:](#screenshots)
+        - [**Repositories image:**](#repositories-image)
+        - [**Administrator panel image:**](#administrator-panel-image)
 
 ## OS Details:
 ---
@@ -116,5 +130,11 @@ $ sudo update-rc.d gogs enable
 ```
 $ sudo reboot
 ```
+
+# Screenshots:
+### **Repositories image:**
+![Repos image](\Gogs-git_server\repos.jpg)
+### **Administrator panel image:**
+![Admin panel image](\Gogs-git_server\admin.jpg)
 
 [Tutorial link @ eladnava.com](https://eladnava.com/host-your-own-private-github-with-gogs-io/)
