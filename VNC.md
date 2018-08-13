@@ -1,5 +1,16 @@
 # VNC Installation
 
+# Menu
+- [VNC Installation](#vnc-installation)
+- [Menu](#menu)
+    - [OS Details:](#os-details)
+    - [Prerequisites:](#prerequisites)
+    - [Procedure:](#procedure)
+        - [Step 1 - Installing Desktop and VNC Server:](#step-1---installing-desktop-and-vnc-server)
+        - [Step 2 - Configuring VNC Server:](#step-2---configuring-vnc-server)
+        - [Step 3 - Testing VNC:](#step-3---testing-vnc)
+        - [Step 3 - Creating a VNC Service File:](#step-3---creating-a-vnc-service-file)
+
 ## OS Details:
 ---
 > * Ubuntu 18.04 LTS

@@ -1,5 +1,10 @@
 # Samba installation Ubuntu 18.04 to Windows 10
 
+# Menu
+- [Menu](#menu)
+    - [OS Details:](#os-details)
+    - [Procedure:](#procedure)
+
 ## OS Details:
 ---
 > * Ubuntu 18.04 LTS
@@ -9,23 +14,23 @@
 ---
 
 1. update and upgrade if possible:
-```console
+```shell
 $ sudo apt-get update & apt-get upgrade
 ```
 2. Install samba service:
-```console
+```shell
 $ sudo apt-get install samba
 ```
 1. Setup your samba password:
-```console
+```shell
 $ sudo smbpasswd -a YOUR-PASSWORD
 ```
 4. Create a sharing folder you want to
-```console
+```shell
 $ mkdir ~/Desktop/Share
 ```
 5. Edit smb.conf file:
-```console  
+```shell  
 $ sudo nano /etc/samba/smb.conf
 ```
 6. At the end of the file add this lines:
@@ -33,6 +38,6 @@ $ sudo nano /etc/samba/smb.conf
 [<folder_name>] path = /home/<user_name>/<folder_name> available = yes valid users = <user_name> read only = no browsable = yes public = yes writable = yes
 ```
 7. Restart samba service:
-```console
+```shell
 $ sudo service smbd restart
 ```
